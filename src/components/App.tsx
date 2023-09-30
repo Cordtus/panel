@@ -1,7 +1,13 @@
+// Import the "@cosmjs/stargate" module
+import "@cosmjs/stargate";
+import * as TE from "fp-ts/lib/TaskEither";
+import { pipe } from "fp-ts/lib/pipeable";
+// Define a function called keplrStandardSignAndBroadcast that takes a KeplrSignData object and a statusCallback function as its arguments and returns a BroadcastResponse object
 export const keplrStandardSignAndBroadcast = (
   { address, keplr, msgs, chainId, memo = "" }: KeplrSignData,
   statusCallback: (statusName: I18nKey) => void = () => undefined
 ): BroadcastResponse =>
+  // Use the fp-ts library to create a TaskEither object that performs a series of operations to sign and broadcast a transaction using Keplr
   pipe(
     TE.of({ keplr, chainId }),
     TETap(() => statusCallback("signAndBroadcastStatus.keplrEnable")),
