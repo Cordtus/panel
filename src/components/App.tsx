@@ -1,5 +1,6 @@
 // Import the "@cosmjs/stargate" module
 import "@cosmjs/stargate";
+import "@cosmos-kit/keplr";
 import * as TE from "fp-ts/lib/TaskEither";
 import { pipe } from "fp-ts/lib/pipeable";
 // Define a function called keplrStandardSignAndBroadcast that takes a KeplrSignData object and a statusCallback function as its arguments and returns a BroadcastResponse object

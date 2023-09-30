@@ -1,0 +1,1 @@
+{"version":3,"file":"main-wallet.js","sourceRoot":"","sources":["../../src/wallet-connect/main-wallet.ts"],"names":[],"mappings":";;;AACA,6DAAqD;AAErD,iDAAkD;AAClD,qCAAuC;AAEvC,MAAa,iBAAkB,SAAQ,wBAAQ;IAC7C,YACE,UAAkB,EAClB,kBAAiD;QAEjD,KAAK,CAAC,UAAU,EAAE,+BAAgB,EAAE,oBAAW,CAAC,CAAC;QACjD,IAAI,CAAC,kBAAkB,GAAG,kBAAkB,CAAC;IAC/C,CAAC;CACF;AARD,8CAQC"}

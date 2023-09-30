@@ -1,0 +1,1 @@
+{"version":3,"file":"client.js","sourceRoot":"","sources":["../../src/wallet-connect/client.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,QAAQ,EAAE,MAAM,2BAA2B,CAAC;AAErD,MAAM,OAAO,WAAY,SAAQ,QAAQ;IACvC,YAAY,UAAkB;QAC5B,KAAK,CAAC,UAAU,CAAC,CAAC;IACpB,CAAC;CACF"}
